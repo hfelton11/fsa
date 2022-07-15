@@ -14,12 +14,12 @@ This page contains a quickstart for the impatient ones.
 ## Install
 *Note: These are commands to run in a Linux command line. If you don't already have linux tooling, see the [HowTos](HOWTOS.md)*.
 
- - Install `git` and `pipenv`:
-	 - Deb/Ubu: `sudo apt install git pipenv`
-	 - Fedora: `sudo yum install git pipenv`
-	 - OpenBSD: `doas pkg_add git pipenv`
-	 - Alpine: `sudo apk add git pipenv`
-     - MacOS: `brew install git pipenv`
+ - Install `ansible` and `git` and `pipenv`:
+	 - Deb/Ubu: `sudo apt install ansible git pipenv`
+	 - Fedora: `sudo yum install ansible git pipenv`
+	 - OpenBSD: `doas pkg_add ansible git pipenv`
+	 - Alpine: `sudo apk add ansible git pipenv`
+     - MacOS: `brew install ansible git pipenv`
 
  - Clone and enter the repository:
 	 - `git clone https://github.com/yviel-de/fsa.git && cd fsa`
